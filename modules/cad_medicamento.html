@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8"/>
+	<title>Cadastro</title>
+	<link rel="stylesheet" type="text/css" href="../css/foundation.css">
+	<link rel="stylesheet" type="text/css" href="../css/foundation.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/app.css">
+	<link rel="icon" type="image/png" href="/img/favicon.ico" />
+</head>
+
+</head>
+<body>
+
+<div class="row">
+    <div class="medium-6 medium-centered large-4 large-centered columns">
+      <div class="signup-panel">
+      		<br>
+
+	<form method="post" action="cad_medicamento.php">
+
+		<div class="row colum log-in-form">
+
+		<label>Nome
+			<input type="text" name="nome" id="nome" placeholder="Ex: 2.398.262">	
+		</label>
+
+		<label>Descrição
+			<textarea class="inputCadastros" name="descricao" placeholder="Ex: Te mata em meia hora" id="descricao"></textarea>	
+		</label>
+
+		<label>data de vencimento
+			<input type="text" name="dv" id="dv" placeholder="Ex: 30/10/9999">	
+		</label>
+
+		<label>data de fabricacao
+			<input type="text" name="df" id="df" placeholder="Ex: 30/10/9999">	
+		</label>
+
+		<label>modo de usar
+			<textarea class="inputCadastros" name="modusa" placeholder="Ex: Enfia no rabo" id="modusa"></textarea>		
+		</label>
+
+		<label>precausoes 
+			<textarea class="inputCadastros" name="precausoes" placeholder="Ex: Precaventions" id="precaucoes"></textarea>		
+		</label>
+
+		<label>tarja
+			<input type="text" name="tarja" id="tarja" placeholder="Ex: black">	
+		</label>
+
+		<input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
+
+	</form>
+
+	</div>
+	</div>
+	</div>
+	</div>
+</body>
+</html>
